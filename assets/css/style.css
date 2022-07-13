@@ -286,7 +286,7 @@ p {
   background-image: url(https://image.shutterstock.com/z/stock-photo-website-designer-working-digital-tablet-and-computer-laptop-with-smart-phone-and-digital-design-407705494.jpg);
   background-color: #555;
   color: white;
-  opacity: 0.7;
+  opacity: 0.2;
   font-size: 20px;
   padding: 12px 24px;
   border: none;
@@ -345,6 +345,76 @@ flex-direction: column;
 }
 
 
+/* Optimised for large tablet*/
+
+@media screen and (max-width: 920px) {
+  
+
+  .flex-container-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+  
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    
+  
+  }
+
+  .my-details {
+       width: 100vw;
+       margin-left: 0;
+  
+ 
+}
+
+
+
+.main-project .btn-main-project {
+height: 50vh;
+width: 175vw;
+opacity: 1;
+}
+
+/* PROJECT 2 */
+
+.project-2 .btn-project-2 {
+ 
+  width: 175vw;
+  height: 30vw;
+  opacity: 1; 
+ 
+  }
+
+/* PROJECT 3 */
+
+
+.project-3 .btn-project-3 {
+  width: 175vw;
+  height: 30vw;
+  opacity: 1;
+  color: #7a7a7a
+}
+
+
+/* PROJECT 4 */
+
+.project-4 .btn-project-4 {
+  width: 175vw;
+  height: 30vw;
+  opacity: 1;
+}
+
+}
+
+/* Optimised for small tablet */
+
 @media screen and (max-width: 830px) {
   
 
@@ -374,11 +444,9 @@ flex-direction: column;
 
 
 
-}
-
 .main-project .btn-main-project {
 height: 50vh;
-width: 85vw;
+width: 93vw;
 opacity: 1;
 }
 
@@ -386,7 +454,7 @@ opacity: 1;
 
 .project-2 .btn-project-2 {
  
-  width: 85vw;
+  width: 93vw;
   height: 30vw;
   opacity: 1; 
  
@@ -396,7 +464,7 @@ opacity: 1;
 
 
 .project-3 .btn-project-3 {
-  width: 85vw;
+  width: 93vw;
   height: 30vw;
   opacity: 1;
   color: #7a7a7a
@@ -406,7 +474,7 @@ opacity: 1;
 /* PROJECT 4 */
 
 .project-4 .btn-project-4 {
-  width: 85vw;
+  width: 93vw;
   height: 30vw;
   opacity: 1;
 }
@@ -423,6 +491,7 @@ body {
 }
 
 
+/* Optimised for smartphone*/
 
 @media screen and (max-width: 420px) {
   
@@ -515,6 +584,40 @@ body {
   margin: -25px 0 0 -25px;
 }
 
+.main-project .btn-main-project {
+  height: 50vh;
+  width: 85vw;
+  opacity: 1;
+  }
+  
+  /* PROJECT 2 */
+  
+  .project-2 .btn-project-2 {
+   
+    width: 85vw;
+    height: 30vw;
+    opacity: 1; 
+   
+    }
+  
+  /* PROJECT 3 */
+  
+  
+  .project-3 .btn-project-3 {
+    width: 85vw;
+    height: 30vw;
+    opacity: 1;
+    color: #7a7a7a
+  }
+  
+  
+  /* PROJECT 4 */
+  
+  .project-4 .btn-project-4 {
+    width: 85vw;
+    height: 30vw;
+    opacity: 1;
+  }
 
 
 }
