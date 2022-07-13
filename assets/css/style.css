@@ -383,6 +383,8 @@ flex-direction: column;
 width: 100vw;
 }
 
+/* DISABLES SCROLLING TO RIGHT ON SMALLER SCREENS */
+
 html, body {
   overflow-x: hidden;
 }
@@ -390,6 +392,7 @@ body {
   position: relative
 }
 }
+
 
 @media screen and (max-width: 420px) {
   
@@ -477,4 +480,7 @@ body {
 }
 
 
+
 }
+
+
