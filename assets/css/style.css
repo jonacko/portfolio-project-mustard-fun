@@ -301,7 +301,7 @@ p {
  
   }
 
-  .project-4 .btn-project-4:hover {
+  .project-4 .btn-project-4 {
     opacity: 1;
   }
 
@@ -361,6 +361,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: space-around;
     width: 100vw;
+    
   
   }
 
@@ -371,17 +372,46 @@ flex-direction: column;
  
 }
 
-.container {
-width: 100vw;
-height: auto;
+
 
 }
 
-.btn-about .btn-contact .btn-projects {
-display: flex;
-flex-direction: column;
-width: 100vw;
+.main-project .btn-main-project {
+height: 50vh;
+width: 85vw;
+opacity: 1;
 }
+
+/* PROJECT 2 */
+
+.project-2 .btn-project-2 {
+ 
+  width: 85vw;
+  height: 30vw;
+  opacity: 1; 
+ 
+  }
+
+/* PROJECT 3 */
+
+
+.project-3 .btn-project-3 {
+  width: 85vw;
+  height: 30vw;
+  opacity: 1;
+  color: #7a7a7a
+}
+
+
+/* PROJECT 4 */
+
+.project-4 .btn-project-4 {
+  width: 85vw;
+  height: 30vw;
+  opacity: 1;
+}
+
+
 
 /* DISABLES SCROLLING TO RIGHT ON SMALLER SCREENS */
 
@@ -391,7 +421,7 @@ html, body {
 body {
   position: relative
 }
-}
+
 
 
 @media screen and (max-width: 420px) {
@@ -422,15 +452,11 @@ body {
 /* Container needed to position the button. Adjust the width as needed */
 .container {
   position: flex;
-  width: 150%;
+  width: 150vw;
+  position: relative;
+
 }
 
-/* Make the image responsive */
-.container img {
-  width: 100%;
-  height: auto;
-  opacity: 0.7;
-}
 
 .container .btn-about {
  
@@ -439,12 +465,13 @@ body {
   color: white
   font-size: 20px;
   font-family:var(--font-2);
-  padding: 12px 24px;
   border: none;
-  cursor: pointer;
   border-radius: 5px;
-  width: 30vw;
+  width: 20vw;
   margin-right: 10vw;
+  top: 25vw;
+  left: 30vw;
+  margin: -25px 0 0 -25px;
 
 }
 
@@ -461,6 +488,12 @@ body {
   border-radius: 5px;
   width: 30vw;
   margin-left: 10vw;
+  position: absolute;
+  top: 25vw;
+  left: 50vw;
+  margin: -25px 0 0 -25px;
+
+
 }
 
 .container .btn-contact {
@@ -477,6 +510,9 @@ body {
   border-radius: 5px;
   width: 30vw;
   margin-right: 100vw;
+  top: 25vw;
+  left: 300vw;
+  margin: -25px 0 0 -25px;
 }
 
 
