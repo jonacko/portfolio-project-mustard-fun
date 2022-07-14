@@ -31,6 +31,7 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 - Flex direction adjusted so all sections sit in columns
 - Opacity changed to 100% on buttons to support visually (& not as much need for reactive buttons on smartphone/tablet)
 - Project button widths adjusted to fit screen; scaling adjusted to work aesthetically yet keep the first application larger in size than others
+- Use of viewport width to amend elements proportionally
 
 
 # 3. Issues encountered/further amendments
