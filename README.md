@@ -13,7 +13,8 @@ Contents:
 
 This project was undertaken as a submission for a Birmingham City Bootcamp assignment, with a brief to create a web page portfolio suitable for prospective employers' viewing. The user story and acceptance criteria are as follows:
 
-[image 1 here]
+![image](https://user-images.githubusercontent.com/106882755/179043907-4d26c5d5-a352-4290-a4e7-1ec0dbbfbb5a.png)
+
 
 ## 2. Key features
 
