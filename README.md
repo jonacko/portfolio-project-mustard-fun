@@ -36,7 +36,7 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 # 3. Issues encountered/further amendments
 - Linking images for buttons from asset folder did not work (link in CSS worked but appeared blank in HTML) - links to image URL instead but unfortunately these show the watermarks
 - Aligning buttons over the hero image - difficulty getting them to sit with exact spacing when optimized for tablet
-- Optimization for large tablet - commented out - ran out of time to complete this; amendments appeard to affect small tablet optimization hence commenting this out
+- Optimization for large tablet - commented out - ran out of time to complete this; amendments appeared to affect small tablet optimization hence commenting this out
 - Code consolidation - I consolodated a lot of the CSS code along the way but there it could still be made more elegant given more time.
 
 # 4. Credits
