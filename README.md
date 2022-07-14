@@ -1,4 +1,4 @@
-## portfolio-project-mustard-fun
+# portfolio-project-mustard-fun
 Challenge 2 assignment for BCU Bootcamp due 14-07-22
 
 Contents:
@@ -9,20 +9,20 @@ Contents:
 3. Issues encountered/further amendments
 4. Credits
 
-# 1. Summary
+## 1. Summary
 
 This project was undertaken as a submission for a Birmingham City Bootcamp assignment, with a brief to create a web page portfolio suitable for prospective employers' viewing. The user story and acceptance criteria are as follows:
 
 [image 1 here]
 
-# 2. Key features
+## 2. Key features
 
 - Hero image with buttons that respond to 'hover' and link to relevant parts on webpage
 - 4 x project buttons that respond to 'hover' and open link in new tab
 - Use of variables to maintain styling consistency with font & colour
 - Optimised for most smartphones and small tablets
 
-# 2a. Key optimization amendments (for smartphone/small tablet eg. iPad air/iPad mini)
+## 2a. Key optimization amendments (for smartphone/small tablet eg. iPad air/iPad mini)
 
 - Scroll left/right disabled
 - Hero image adjusted to respond to width of screen
@@ -34,12 +34,12 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 - Use of viewport width to amend elements proportionally
 
 
-# 3. Issues encountered/further amendments
+## 3. Issues encountered/further amendments
 - Linking images for buttons from asset folder did not work (link in CSS worked but appeared blank in HTML) - links to image URL instead but unfortunately these show the watermarks
 - Aligning buttons over the hero image - difficulty getting them to sit with exact spacing when optimized for tablet
 - Optimization for large tablet - commented out - ran out of time to complete this; amendments appeared to affect small tablet optimization hence commenting this out
 - Code consolidation - I consolodated a lot of the CSS code along the way but there it could still be made more elegant given more time.
 
-# 4. Credits
+## 4. Credits
 Avatar designer: https://avatarmaker.com/
 Image credits: https://Shuttershock.com
