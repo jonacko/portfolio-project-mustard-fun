@@ -163,6 +163,7 @@ display: none;
     font-family: 'Georgia', 'Garamond', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--light-grey);
     color: #ffffff;
+    list-style: none;
 }
 
 .my-details h2 {
@@ -188,26 +189,6 @@ display: none;
     margin-left: 40px;
     
 }
-
-
-
-
-/* MAIN PROJECT SECTION BLOCK STYLING */
-
-
-/* comment out
-.main-project {
-    background-image: url(https://image.shutterstock.com/z/stock-photo-code-html-444047245.jpg);
-    margin-bottom: 0;
-    width: 49%;
-    padding: 50px;
-    height: 615px;
-
-    color: #ffffff;
-  
-}
-
-*/
 
 
 
@@ -300,7 +281,7 @@ display: none;
   background-image: url(https://image.shutterstock.com/z/stock-photo-website-designer-working-digital-tablet-and-computer-laptop-with-smart-phone-and-digital-design-407705494.jpg);
   background-color: #555;
   color: white;
-  opacity: 0.2;
+  opacity: 0.7;
   font-size: 20px;
   padding: 12px 24px;
   border: none;
@@ -315,7 +296,7 @@ display: none;
  
   }
 
-  .project-4 .btn-project-4 {
+  .project-4 .btn-project-4:hover {
     opacity: 1;
   }
 
@@ -359,14 +340,278 @@ flex-direction: column;
 }
 
 
-/* Optimised for large tablet*/
+
+
+
+/* Optimised for large tablet 
 
 @media screen and (max-width: 920px) {
   
+  /* NAVIGATION  STYLING 
+
+
+.header {
+  font-size: 30px;
+  text-align: right;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 80px;
+  text-align: right;
+}
+
+
+
+/* Left nav buttons - hidden on larger screens 
+
+.left-nav {
+float: left;
+margin-bottom: 20px;
+text-align: left;
+list-style: none;
+font-family: var(--font-2);
+opacity: 0.5;
+font-size: 16px;
+display: none;
+
+}
+
+/* HERO IMAGE / BUTTONS STYLING 
+
+
+/* Container needed to position the button. Adjust the width as needed 
+.container {
+  position: relative;
+  width: 230vw;
+}
+
+/* Make the image responsive 
+.container img {
+  width: 230vw;
+  height: auto;
+  opacity: 0.7;
+}
+
+/* BUTTONS STYLING 
+
+.container .btn-about {
+
+  font-size: 40px;
+  padding: 24px, 48px;
+  width: 250px;
+}
+
+.container .btn-projects {
+  font-size: 40px;
+  padding: 24px, 48px;
+  width: 250px;
+}
+
+.container .btn-contact {
+  font-size: 40px;
+  padding: 24px, 48px;
+  width: 250px;
+}
+
+.container .btn-about:hover {
+  background-color: var(--dark-grey);
+}
+
+.container .btn-projects:hover {
+  background-color: var(--dark-grey);
+}
+
+.container .btn-contact:hover {
+  background-color: var(--dark-grey);
+}
+
+
+
+/* MAIN SECTION BLOCK STYLING 
+
+.my-details {
+  font-size: 100px;
+}
+
+.my-details h2 {
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-family: var(--font-1);
+}
+
+.my-details h3 {
+margin-bottom: 20px;
+font-size: 50px;
+font-family: var(--font-2);
+}
+
+
+.my-details img {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  float: right;
+  border-radius: 30%;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  
+}
+
+
+
+.main-project .btn-main-project {
+background-image: url(https://image.shutterstock.com/z/stock-photo-code-html-444047245.jpg);
+  background-color: #555;
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50vw;
+  height: 96%;
+  font-family: var(--font-2);
+  margin-right: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+}
+
+.btn-main-project:hover {
+  opacity: 1;
+}
+
+
+/* OTHER PROJECTS SECTION BLOCK STYLING */
+/* PROJECT 2 
+
+
+
+
+.project-2 .btn-project-2 {
+background-image: url(https://image.shutterstock.com/z/stock-photo-web-development-work-concept-html-programming-job-programmer-working-on-his-laptop-computer-511444168.jpg);
+background-color: #555;
+color: white;
+opacity: 0.7;
+font-size: 20px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+width: 420px;
+height: 300px;
+font-family: var(--font-2);
+margin-left:30px;
+margin-top: 15px;
+margin-right: 30px;
+
+}
+
+
+.project-2 .btn-project-2:hover {
+  opacity: 1;
+}
+
+
+/* PROJECT 3 
+
+
+.project-3 .btn-project-3 {
+background-image: url(https://image.shutterstock.com/z/stock-photo-designer-drawing-website-development-wireframe-156863096.jpg);
+background-color: #555;
+color: var(--light-grey);
+opacity: 0.7;
+font-size: 20px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+width: 420px;
+height: 300px;
+font-family: var(--font-2);
+margin-left:30px;
+margin-top: 15px;
+margin-right: 30px;
+
+}
+
+.project-3 .btn-project-3:hover {
+  opacity: 1;
+}
+
+
+/* PROJECT 4 
+
+.project-4 .btn-project-4 {
+background-image: url(https://image.shutterstock.com/z/stock-photo-website-designer-working-digital-tablet-and-computer-laptop-with-smart-phone-and-digital-design-407705494.jpg);
+background-color: #555;
+color: white;
+opacity: 0.2;
+font-size: 20px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+width: 420px;
+height: 300px;
+font-family: var(--font-2);
+margin-left:30px;
+margin-top: 15px;
+margin-right: 30px;
+
+}
+
+.project-4 .btn-project-4 {
+  opacity: 1;
+}
+
+/* Flex containers for positioning 
+
+.flex-container-a {
+display: flex;
+flex-direction: column;
+
+}
+
+.flex-container-b {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 300vw;
+
+}
+
+
+.flex-container {
+display: flex;
+flex-direction: row;
+width: 300vw;
+
+
+}
+
+
+/* FOOTER 
+
+.footer {
+  padding: 30px;
+  font-family: var(--font-1);
+  text-align: center;
+}
+
+
+
+.footer h2 {
+  font-size: 15px;
+  font-family: var(--font-1);
+}
 
   .flex-container-b {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     width: 100vw;
   
@@ -392,11 +637,11 @@ flex-direction: column;
 
 .main-project .btn-main-project {
 height: 50vh;
-width: 175vw;
+width: 216vw;
 opacity: 1;
 }
 
-/* PROJECT 2 */
+/* PROJECT 2 
 
 .project-2 .btn-project-2 {
  
@@ -406,7 +651,7 @@ opacity: 1;
  
   }
 
-/* PROJECT 3 */
+/* PROJECT 3 
 
 
 .project-3 .btn-project-3 {
@@ -417,7 +662,7 @@ opacity: 1;
 }
 
 
-/* PROJECT 4 */
+/* PROJECT 4 
 
 .project-4 .btn-project-4 {
   width: 175vw;
@@ -426,6 +671,11 @@ opacity: 1;
 }
 
 }
+
+*/
+
+
+
 
 /* Optimised for small tablet */
 
