@@ -50,7 +50,7 @@ p {
 
 }
 
-/* Left nav buttons - hidden on larger screens */
+/****** Left nav buttons - hidden on larger screens ******/
 
 .left-nav {
 float: left;
@@ -67,13 +67,11 @@ display: none;
 /* HERO IMAGE / BUTTONS STYLING */
 
 
-/* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
     width: 100%;
   }
   
-  /* Make the image responsive */
   .container img {
     width: 100%;
     height: auto;
@@ -191,7 +189,6 @@ display: none;
 }
 
 
-
 .main-project .btn-main-project {
   background-image: url(https://image.shutterstock.com/z/stock-photo-code-html-444047245.jpg);
     background-color: #555;
@@ -217,9 +214,9 @@ display: none;
   }
 
 
+
 /* OTHER PROJECTS SECTION BLOCK STYLING */
 /* PROJECT 2 */
-
 
 
 
@@ -342,8 +339,7 @@ flex-direction: column;
 
 
 
-
-/* Optimised for large tablet 
+/****** Optimised for large tablet - to finish
 
 @media screen and (max-width: 920px) {
   
@@ -675,9 +671,7 @@ opacity: 1;
 */
 
 
-
-
-/* Optimised for small tablet */
+/****** Optimised for small tablet ******/
 
 @media screen and (max-width: 830px) {
   
@@ -704,6 +698,11 @@ opacity: 1;
        margin-left: 0;
   
  
+}
+
+
+.container .btn-contact {
+ margin-left: 7vw;
 }
 
 
@@ -758,7 +757,7 @@ body {
 }
 
 
-/* Optimised for smartphone*/
+/****** Optimised for smartphone ******/
 
 @media screen and (max-width: 420px) {
   
@@ -785,7 +784,6 @@ body {
  
 }
 
-/* Container needed to position the button. Adjust the width as needed */
 .container {
   position: flex;
   width: 150vw;
