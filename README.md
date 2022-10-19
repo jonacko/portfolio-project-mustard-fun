@@ -1,5 +1,5 @@
 # portfolio-project-mustard-fun
-Challenge 2 assignment for BCU Bootcamp due 14-07-22
+Challenge 2 assignment for UoB Bootcamp due 14-07-22
 
 Deployed URL: https://jonacko.github.io/portfolio-project-mustard-fun/
 
